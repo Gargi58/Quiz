@@ -58,14 +58,14 @@ class Quiz {
         var correctAns = "3";
         if (correctAns === allContestants[plr].answer)
         {
-          fill("Green");
-          stroke("green");
+          fill("red");
+          stroke("red");
           strokeWeight(2);
         }
         else
         {       
-          fill("red");
-          stroke("red");
+          fill("green");
+          stroke("green");
           strokeWeight(2)
         }
         display_Answers+=30;
